@@ -80,10 +80,15 @@ npm install --save-dev @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs
 npx hardhat
 ```
 
-- Select `Create a basic sample project`
+- Select `Create a JavaScript project`
 - Press enter for the already specified `Hardhat Project Root`
 - Press enter for the question on if you want to add a `.gitignore`
-- Press enter for `Do you want to install this sample project's dependencies with npm (@nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers)?`
+- Press enter for `Do you want to install this sample project's dependencies with npm (@nomicfoundation/hardhat-toolbox)?'
+
+Next you will need to install 
+```shell
+npm install @nomiclabs/hardhat-waffle
+```
 
 We now have our Hardhat project ready to go!
 
